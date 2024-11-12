@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://www.thymeleaf.org"
+      th:replace="~{base::layout(~{::section})}">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <section>
+        <div class="container card-sh" style="margin-top:70px; margin-bottom:100px">
+            <div class="col-md-12 p-5">
+                <div class="row">
+                    <div class="col-md-6 text-end">
+                        <img alt="" src="/img/product_img/laptop.jpg" width="330px" height="400px">
+                </div>
+                <div class="col-md-6">
+                    <p class="fs-3">Laptop</p>
+                    <p>
+                        <span class="fw-bold">Description</span><br>Laptop HP, 256Gb SSD
+                    </p>
+                    <p>
+                        <span class="fw-bold">Product Details: </span> <br> Trạng thái:
+                        <span class="badge bg-success">Có sẵn</span>
+                        <span class="badge bg-danger">Hết hàng</span> <br> Category: Laptop <br>
+                        Chính sách : 7 ngày đổi trả hàng hoàn toàn miễn phí
+                    </p>
+                    <p class="fs-5 fw-bold ">
+                        Price: 14.999.999
+                        <span class="fs-6 text-decoration-line-through text-secondary text-danger">30.000.000</span>
+                        <span class="badge bg-success fw-bold">50% OFF</span>
+                    </p>
+                    <div class="row">
+                        <div class="col-md-4 text-center p-2 text-success">
+                            <i class="fas fa-money-bill-wave fa-2x"></i>
+                            <p>Cash On Delivery</p>
+                        </div>
+                        <div class="col-md-4 text-danger text-center p-2">
+                            <i class="fas fa-undo-alt fa-2x"></i>
+                            <p>Return Available</p>
+                        </div>
+                        <div class="col-md-4 text-danger text-center p-2">
+                            <i class="fas fa-truck-moving fa-2x"></i>
+                            <p>Free Shipping</p>
+                        </div>
+                    </div>
+                    <a href="login.jsp" class="btn btn-success col-md-12">Add to Cart</a>
+                </div>
+            </div>
+        </div>
+        </div>
+    </section>
+</body>
+</html>
